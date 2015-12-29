@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1505EC7B1C326CE2008CA073 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1505EC7A1C326CE2008CA073 /* AppDelegate.swift */; };
+		1505EC7D1C326CE2008CA073 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1505EC7C1C326CE2008CA073 /* ViewController.swift */; };
+		1505EC801C326CE2008CA073 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1505EC7E1C326CE2008CA073 /* Main.storyboard */; };
+		1505EC831C326CE2008CA073 /* keenbraceV2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1505EC811C326CE2008CA073 /* keenbraceV2.xcdatamodeld */; };
+		1505EC851C326CE2008CA073 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1505EC841C326CE2008CA073 /* Assets.xcassets */; };
+		1505EC881C326CE2008CA073 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1505EC861C326CE2008CA073 /* LaunchScreen.storyboard */; };
+		1505EC931C326CE2008CA073 /* keenbraceV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1505EC921C326CE2008CA073 /* keenbraceV2Tests.swift */; };
+		1505EC9E1C326CE2008CA073 /* keenbraceV2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1505EC9D1C326CE2008CA073 /* keenbraceV2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1505EC8F1C326CE2008CA073 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1505EC6F1C326CE2008CA073 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1505EC761C326CE2008CA073;
+			remoteInfo = keenbraceV2;
+		};
+		1505EC9A1C326CE2008CA073 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1505EC6F1C326CE2008CA073 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1505EC761C326CE2008CA073;
+			remoteInfo = keenbraceV2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1505EC771C326CE2008CA073 /* keenbraceV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keenbraceV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1505EC7A1C326CE2008CA073 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1505EC7C1C326CE2008CA073 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1505EC7F1C326CE2008CA073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1505EC821C326CE2008CA073 /* keenbraceV2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = keenbraceV2.xcdatamodel; sourceTree = "<group>"; };
+		1505EC841C326CE2008CA073 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1505EC871C326CE2008CA073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1505EC891C326CE2008CA073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1505EC8E1C326CE2008CA073 /* keenbraceV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keenbraceV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1505EC921C326CE2008CA073 /* keenbraceV2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keenbraceV2Tests.swift; sourceTree = "<group>"; };
+		1505EC941C326CE2008CA073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1505EC991C326CE2008CA073 /* keenbraceV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keenbraceV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1505EC9D1C326CE2008CA073 /* keenbraceV2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keenbraceV2UITests.swift; sourceTree = "<group>"; };
+		1505EC9F1C326CE2008CA073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1505EC741C326CE2008CA073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1505EC8B1C326CE2008CA073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1505EC961C326CE2008CA073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1505EC6E1C326CE2008CA073 = {
+			isa = PBXGroup;
+			children = (
+				1505EC791C326CE2008CA073 /* keenbraceV2 */,
+				1505EC911C326CE2008CA073 /* keenbraceV2Tests */,
+				1505EC9C1C326CE2008CA073 /* keenbraceV2UITests */,
+				1505EC781C326CE2008CA073 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1505EC781C326CE2008CA073 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1505EC771C326CE2008CA073 /* keenbraceV2.app */,
+				1505EC8E1C326CE2008CA073 /* keenbraceV2Tests.xctest */,
+				1505EC991C326CE2008CA073 /* keenbraceV2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1505EC791C326CE2008CA073 /* keenbraceV2 */ = {
+			isa = PBXGroup;
+			children = (
+				1505EC7A1C326CE2008CA073 /* AppDelegate.swift */,
+				1505EC7C1C326CE2008CA073 /* ViewController.swift */,
+				1505EC7E1C326CE2008CA073 /* Main.storyboard */,
+				1505EC841C326CE2008CA073 /* Assets.xcassets */,
+				1505EC861C326CE2008CA073 /* LaunchScreen.storyboard */,
+				1505EC891C326CE2008CA073 /* Info.plist */,
+				1505EC811C326CE2008CA073 /* keenbraceV2.xcdatamodeld */,
+			);
+			path = keenbraceV2;
+			sourceTree = "<group>";
+		};
+		1505EC911C326CE2008CA073 /* keenbraceV2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1505EC921C326CE2008CA073 /* keenbraceV2Tests.swift */,
+				1505EC941C326CE2008CA073 /* Info.plist */,
+			);
+			path = keenbraceV2Tests;
+			sourceTree = "<group>";
+		};
+		1505EC9C1C326CE2008CA073 /* keenbraceV2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1505EC9D1C326CE2008CA073 /* keenbraceV2UITests.swift */,
+				1505EC9F1C326CE2008CA073 /* Info.plist */,
+			);
+			path = keenbraceV2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1505EC761C326CE2008CA073 /* keenbraceV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1505ECA21C326CE2008CA073 /* Build configuration list for PBXNativeTarget "keenbraceV2" */;
+			buildPhases = (
+				1505EC731C326CE2008CA073 /* Sources */,
+				1505EC741C326CE2008CA073 /* Frameworks */,
+				1505EC751C326CE2008CA073 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = keenbraceV2;
+			productName = keenbraceV2;
+			productReference = 1505EC771C326CE2008CA073 /* keenbraceV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1505EC8D1C326CE2008CA073 /* keenbraceV2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1505ECA51C326CE2008CA073 /* Build configuration list for PBXNativeTarget "keenbraceV2Tests" */;
+			buildPhases = (
+				1505EC8A1C326CE2008CA073 /* Sources */,
+				1505EC8B1C326CE2008CA073 /* Frameworks */,
+				1505EC8C1C326CE2008CA073 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1505EC901C326CE2008CA073 /* PBXTargetDependency */,
+			);
+			name = keenbraceV2Tests;
+			productName = keenbraceV2Tests;
+			productReference = 1505EC8E1C326CE2008CA073 /* keenbraceV2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1505EC981C326CE2008CA073 /* keenbraceV2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1505ECA81C326CE2008CA073 /* Build configuration list for PBXNativeTarget "keenbraceV2UITests" */;
+			buildPhases = (
+				1505EC951C326CE2008CA073 /* Sources */,
+				1505EC961C326CE2008CA073 /* Frameworks */,
+				1505EC971C326CE2008CA073 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1505EC9B1C326CE2008CA073 /* PBXTargetDependency */,
+			);
+			name = keenbraceV2UITests;
+			productName = keenbraceV2UITests;
+			productReference = 1505EC991C326CE2008CA073 /* keenbraceV2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1505EC6F1C326CE2008CA073 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = michaeltam;
+				TargetAttributes = {
+					1505EC761C326CE2008CA073 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1505EC8D1C326CE2008CA073 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1505EC761C326CE2008CA073;
+					};
+					1505EC981C326CE2008CA073 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1505EC761C326CE2008CA073;
+					};
+				};
+			};
+			buildConfigurationList = 1505EC721C326CE2008CA073 /* Build configuration list for PBXProject "keenbraceV2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1505EC6E1C326CE2008CA073;
+			productRefGroup = 1505EC781C326CE2008CA073 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1505EC761C326CE2008CA073 /* keenbraceV2 */,
+				1505EC8D1C326CE2008CA073 /* keenbraceV2Tests */,
+				1505EC981C326CE2008CA073 /* keenbraceV2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1505EC751C326CE2008CA073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1505EC881C326CE2008CA073 /* LaunchScreen.storyboard in Resources */,
+				1505EC851C326CE2008CA073 /* Assets.xcassets in Resources */,
+				1505EC801C326CE2008CA073 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1505EC8C1C326CE2008CA073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1505EC971C326CE2008CA073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1505EC731C326CE2008CA073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1505EC7D1C326CE2008CA073 /* ViewController.swift in Sources */,
+				1505EC831C326CE2008CA073 /* keenbraceV2.xcdatamodeld in Sources */,
+				1505EC7B1C326CE2008CA073 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1505EC8A1C326CE2008CA073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1505EC931C326CE2008CA073 /* keenbraceV2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1505EC951C326CE2008CA073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1505EC9E1C326CE2008CA073 /* keenbraceV2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1505EC901C326CE2008CA073 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1505EC761C326CE2008CA073 /* keenbraceV2 */;
+			targetProxy = 1505EC8F1C326CE2008CA073 /* PBXContainerItemProxy */;
+		};
+		1505EC9B1C326CE2008CA073 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1505EC761C326CE2008CA073 /* keenbraceV2 */;
+			targetProxy = 1505EC9A1C326CE2008CA073 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1505EC7E1C326CE2008CA073 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1505EC7F1C326CE2008CA073 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1505EC861C326CE2008CA073 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1505EC871C326CE2008CA073 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1505ECA01C326CE2008CA073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1505ECA11C326CE2008CA073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1505ECA31C326CE2008CA073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = keenbraceV2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keenbrace.keenbraceV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1505ECA41C326CE2008CA073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = keenbraceV2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keenbrace.keenbraceV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1505ECA61C326CE2008CA073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = keenbraceV2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keenbrace.keenbraceV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/keenbraceV2.app/keenbraceV2";
+			};
+			name = Debug;
+		};
+		1505ECA71C326CE2008CA073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = keenbraceV2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keenbrace.keenbraceV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/keenbraceV2.app/keenbraceV2";
+			};
+			name = Release;
+		};
+		1505ECA91C326CE2008CA073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = keenbraceV2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keenbrace.keenbraceV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = keenbraceV2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1505ECAA1C326CE2008CA073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = keenbraceV2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keenbrace.keenbraceV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = keenbraceV2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1505EC721C326CE2008CA073 /* Build configuration list for PBXProject "keenbraceV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1505ECA01C326CE2008CA073 /* Debug */,
+				1505ECA11C326CE2008CA073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1505ECA21C326CE2008CA073 /* Build configuration list for PBXNativeTarget "keenbraceV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1505ECA31C326CE2008CA073 /* Debug */,
+				1505ECA41C326CE2008CA073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1505ECA51C326CE2008CA073 /* Build configuration list for PBXNativeTarget "keenbraceV2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1505ECA61C326CE2008CA073 /* Debug */,
+				1505ECA71C326CE2008CA073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1505ECA81C326CE2008CA073 /* Build configuration list for PBXNativeTarget "keenbraceV2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1505ECA91C326CE2008CA073 /* Debug */,
+				1505ECAA1C326CE2008CA073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1505EC811C326CE2008CA073 /* keenbraceV2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1505EC821C326CE2008CA073 /* keenbraceV2.xcdatamodel */,
+			);
+			currentVersion = 1505EC821C326CE2008CA073 /* keenbraceV2.xcdatamodel */;
+			path = keenbraceV2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1505EC6F1C326CE2008CA073 /* Project object */;
+}
