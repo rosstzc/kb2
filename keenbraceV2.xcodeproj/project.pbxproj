@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		1505EC7B1C326CE2008CA073 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1505EC7A1C326CE2008CA073 /* AppDelegate.swift */; };
-		1505EC7D1C326CE2008CA073 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1505EC7C1C326CE2008CA073 /* ViewController.swift */; };
+		1505EC7D1C326CE2008CA073 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1505EC7C1C326CE2008CA073 /* StartViewController.swift */; };
 		1505EC801C326CE2008CA073 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1505EC7E1C326CE2008CA073 /* Main.storyboard */; };
 		1505EC831C326CE2008CA073 /* keenbraceV2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1505EC811C326CE2008CA073 /* keenbraceV2.xcdatamodeld */; };
 		1505EC851C326CE2008CA073 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1505EC841C326CE2008CA073 /* Assets.xcassets */; };
 		1505EC881C326CE2008CA073 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1505EC861C326CE2008CA073 /* LaunchScreen.storyboard */; };
 		1505EC931C326CE2008CA073 /* keenbraceV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1505EC921C326CE2008CA073 /* keenbraceV2Tests.swift */; };
 		1505EC9E1C326CE2008CA073 /* keenbraceV2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1505EC9D1C326CE2008CA073 /* keenbraceV2UITests.swift */; };
+		150843951C328F5E00A2B692 /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150843941C328F5E00A2B692 /* MessageTableViewController.swift */; };
+		150843971C32901000A2B692 /* ModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150843961C32901000A2B692 /* ModelViewController.swift */; };
+		15491D271C34FDDD009151BE /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15491D261C34FDDD009151BE /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,7 @@
 /* Begin PBXFileReference section */
 		1505EC771C326CE2008CA073 /* keenbraceV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keenbraceV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1505EC7A1C326CE2008CA073 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1505EC7C1C326CE2008CA073 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1505EC7C1C326CE2008CA073 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		1505EC7F1C326CE2008CA073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1505EC821C326CE2008CA073 /* keenbraceV2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = keenbraceV2.xcdatamodel; sourceTree = "<group>"; };
 		1505EC841C326CE2008CA073 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		1505EC991C326CE2008CA073 /* keenbraceV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keenbraceV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1505EC9D1C326CE2008CA073 /* keenbraceV2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keenbraceV2UITests.swift; sourceTree = "<group>"; };
 		1505EC9F1C326CE2008CA073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		150843941C328F5E00A2B692 /* MessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
+		150843961C32901000A2B692 /* ModelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelViewController.swift; sourceTree = "<group>"; };
+		15491D261C34FDDD009151BE /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				1505EC7A1C326CE2008CA073 /* AppDelegate.swift */,
-				1505EC7C1C326CE2008CA073 /* ViewController.swift */,
+				15491D261C34FDDD009151BE /* TabBarViewController.swift */,
+				1505EC7C1C326CE2008CA073 /* StartViewController.swift */,
+				150843941C328F5E00A2B692 /* MessageTableViewController.swift */,
+				150843961C32901000A2B692 /* ModelViewController.swift */,
 				1505EC7E1C326CE2008CA073 /* Main.storyboard */,
 				1505EC841C326CE2008CA073 /* Assets.xcassets */,
 				1505EC861C326CE2008CA073 /* LaunchScreen.storyboard */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1505EC7D1C326CE2008CA073 /* ViewController.swift in Sources */,
+				1505EC7D1C326CE2008CA073 /* StartViewController.swift in Sources */,
 				1505EC831C326CE2008CA073 /* keenbraceV2.xcdatamodeld in Sources */,
+				150843951C328F5E00A2B692 /* MessageTableViewController.swift in Sources */,
+				150843971C32901000A2B692 /* ModelViewController.swift in Sources */,
+				15491D271C34FDDD009151BE /* TabBarViewController.swift in Sources */,
 				1505EC7B1C326CE2008CA073 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +500,7 @@
 				1505ECA41C326CE2008CA073 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1505ECA51C326CE2008CA073 /* Build configuration list for PBXNativeTarget "keenbraceV2Tests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +509,7 @@
 				1505ECA71C326CE2008CA073 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1505ECA81C326CE2008CA073 /* Build configuration list for PBXNativeTarget "keenbraceV2UITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +518,7 @@
 				1505ECAA1C326CE2008CA073 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
